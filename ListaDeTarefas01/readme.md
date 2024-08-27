@@ -2,6 +2,17 @@
 
 ## Formação Desenvolvedor Full Stack Júnior
 ***
+#### Para que o código funcione corretamente, é preciso ter o Node.js instalado em seu computador. Se ainda não tiver o Node.js, você pode baixá-lo e instalá-lo através do site oficial, nodejs.org. Depois de instalar, abra o terminal no VSCode, vá até a pasta do projeto e execute o comando:
+
+               npm install prompt-sync
+#### Isso instalará a biblioteca prompt-sync, que é necessária para o código funcionar. Se você quiser executar o código em sua própria máquina, comece clonando o repositório com o seguinte comando:
+    
+    git clone (https://github.com/miller110/MaisPraTi.git)
+
+#### Depois de clonar, acesse a pasta do projeto e siga os passos mencionados anteriormente para instalar as dependências.
+***
+
+
 #### Lista de Tarefas 01
 
 ###### 1. Escreva um programa que recebe um número inteiro e verifica se ele é par ou ímpar utilizando uma estrutura de controle if.
