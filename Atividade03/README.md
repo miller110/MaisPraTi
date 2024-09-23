@@ -23,6 +23,7 @@
 <strong>Requisitos Mínimos:</strong>
 - Utilizar ao menos uma imagem no section com o atributo alt preenchido corretamente.
 - Os links no menu de navegação e no aside devem ser clicáveis (mesmo que levem a páginas fictícias).
+<hr>
 
 <h4>Link para deploy: https://miller110.github.io/MaisPraTi/Atividade03/</h4>
 
