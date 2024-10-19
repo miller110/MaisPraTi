@@ -5,6 +5,9 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+    background: linear-gradient(90deg, #010103 0%, #000080 50%, #4b0082 100%);
+}
 
 #navegation {
     height: 10%;
@@ -229,6 +232,7 @@ header {
    transition: background-color 1s ease, border 1s ease;
    cursor: pointer;
    padding: 20px;
+   scroll-behavior: smooth;
 }
 
 .card:hover {
