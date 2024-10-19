@@ -83,6 +83,8 @@ Trate possíveis erros na chamada de API com mensagens apropriadas, como "Erro a
 <hr>
 
 ## Resolução
+
+#### Deploy: https://maisprati.vercel.app/#title
 <img src="./img/result.png">
 <video width="640" height="360" controls autoplay loop muted>
     <source src ="./video/+PraTi.mp4" type="video/mp4">
