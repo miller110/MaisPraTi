@@ -85,7 +85,7 @@ Trate possíveis erros na chamada de API com mensagens apropriadas, como "Erro a
 ## Resolução
 ## Vídeo ↓
 
-![+praTi](https://github.com/user-attachments/assets/4a4309ab-e898-4b7b-9336-e68689a1bdb3)
+![gif (2)](https://github.com/user-attachments/assets/f69c14e9-f355-4823-91ff-af620edf6f3a)
 
 #### Deploy: https://maisprati.vercel.app/#title
 <img src="./img/result.png">
