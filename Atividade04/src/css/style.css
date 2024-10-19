@@ -262,13 +262,17 @@ header {
 
 .testimonials {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     overflow-x: hidden;
     scroll-behavior: smooth;
     gap: 10px;
     padding: 20px;
 }
 
+
 .testimonial {
+    flex: 1 1 calc(30% - 20px);
     min-width: 250px;
     background-color: #090931;
     padding: 10px;
