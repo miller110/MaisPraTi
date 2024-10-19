@@ -202,6 +202,7 @@ header {
     background: linear-gradient(90deg, #010103 0%, #000080 50%, #4b0082 100%);
     padding: 5%;
     text-align: center;
+    overflow: hidden;
 }
 
 .subtitle {
