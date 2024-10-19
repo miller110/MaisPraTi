@@ -1,0 +1,189 @@
+/* Responsividade */
+
+@media (max-width: 832px){
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background: linear-gradient(90deg, #010103 0%, #000080 50%, #00008e 100%);
+        top: 60px;
+        right: 0;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1000;
+    }
+
+    .menu-toggle:checked ~ #menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+        margin-left: auto;
+    }
+
+    #menu li{
+        padding: 10px 0;
+    }
+
+    #menu li a {
+        font-size: 18px;
+    }
+
+    #img-title {
+        width: 15%;
+    }
+    
+    
+    .swiper-slide h2, .swiper-slide h4, .swiper-slide p {
+        font-size: 1.2rem;
+    }
+
+    .swiper-slide img {
+        max-width: 100%;
+    }
+
+    .swiper-wrapper .subtitle-img {
+        font-size: 1.2rem;
+    }
+
+    .slide-caption{
+        padding: 8px;
+    }
+
+    .slide-caption h4{
+        font-size: 1.6rem;
+    }
+
+    .slide-caption p {
+        font-size: 1.2rem;
+    }
+
+    #content-container {
+        flex-direction: column;
+    }
+
+    #main-content {
+        flex: 100%;
+        padding: 20px;
+    }
+
+    aside {
+        flex: 100%;
+        padding: 20px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%; /* Ajusta o tamanho dos cards para ocupar mais espaço */
+        margin-bottom: 20px;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap; /* Agora irá empilhar conforme a tela diminui */
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .testimonial {
+        flex: 1 1 calc(30% - 20px); /* Aplicando comportamento semelhante aos cards */
+        margin: 1%;
+        border: 1px solid orange;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: background-color 1s ease, border 1s ease;
+        padding: 20px;
+    }
+
+    .testimonial:hover {
+        border: 1px solid orangered;
+    }
+
+    
+    .contact .cta {
+        padding: 18px 22px; /* Reduz ainda mais o padding para telas menores */
+        font-size: 18px; /* Ajusta o tamanho da fonte para telas pequenas */
+    }
+}
+
+
+@media (max-width: 576px) {
+    
+    #img-title {
+        width: 30%;
+    }
+
+    .swiper-slide img {
+        width: 28%;
+    }
+    .swiper-wrapper .subtitle-img {
+        font-size: 1.2;
+    }
+
+    .slide-caption h4 {
+        font-size: 1.1rem;
+    }
+    
+    .slide-caption p {
+        font-size: 0.8rem;
+    }
+    
+    
+    .testimonial {
+        flex: 1 1 calc(100% - 20px); /* Para telas menores, os testemunhos irão ocupar toda a largura */
+    }
+
+    .contact-form {
+        padding: 15px; /* Ajusta o padding do formulário */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px; /* Diminui o padding dos campos em telas menores */
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+
+    .contact-form .contact-button {
+        padding: 10px 12px; /* Ajusta o tamanho do botão */
+        font-size: 14px; /* Tamanho da fonte do botão */
+    }
+}
+   
+
+
+@media (min-width: 831px) {
+    #menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-form {
+        padding: 2px; /* Menos padding para maximizar o espaço */
+        max-width: 90%; /* Max largura do formulário */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 3px; /* Diminui ainda mais o padding */
+        font-size: 14px; /* Mantém o tamanho da fonte */
+    }
+
+    .contact-form .contact-button {
+        padding: 5px 8px; /* Botão menor para se ajustar melhor */
+        font-size: 12px; /* Tamanho da fonte do botão */
+    }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+praTi</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsi.css">
+    <link rel="icon" href="./img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navegation">           
+            <div id="logo">
+                <a href="#title"><img src="img/logo.png"></a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <ul id="menu">
+                <li><a href="#services">Sobre</a></li>
+                <li><a href="#services-section">Serviços</a></li>
+                <li><a href="#container">Testemunhos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+
+
+        <h1 id="title">+praTi</h1>
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/hero.jpg" alt="Estudante de TI" id="img-title">
+                    <h2 class="subtitle-img">Uma iniciativa da sociedade sem fins lucrativos que busca encontrar e
+                        capacitar novos talentos na área de TI</h2>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/depoimento01.jpg" alt="Aluno do maisprati" id="depoimento01" class="depoimento">
+                    <div class="slide-caption">
+                        <h4>Felipe Ávila</h4>
+                        <p>"Olhando para trás hoje, percebo o quão significativo foi me dedicar<br> horas aos estudos e
+                            superar os desafios propostos pela <span>+praTi.</span><br>Sem esse esforço, não teria
+                            alcançado uma oportunidade incrível<br>em uma empresa tão renomada no mercado de TI."</p>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/depoimento02.jpg" alt="Aluno do maisprati" id="depoimento02" class="depoimento">
+                    <div class="slide-caption">
+                        <h4>Guilherme Pacheco</h4>
+                        <p>"Alguns anos atrás eu mal sabia qual caminho seguir na vida profssional,<br> mas graças a ajuda
+                            da <span>+praTi, através da formação em 'Desenvolvimento<br>de Software'</span> e do incrível
+                            apoio que recebi, consigo finalmente visualizar<br>onde devo ir para ter sucesso. Muito
+                            obrigado!"</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+
+    <div id="content-container">
+        <section id="main-content">
+            <h2 class="subtitle" data-aos="fade">Capacitação acessível para talentos em tecnologia</h2>
+            <p data-aos="fade">
+                A +PraTi é uma plataforma voltada para a capacitação de talentos em tecnologia, oferecendo trilhas de
+                aprendizado focadas no desenvolvimento de habilidades em TI. Com uma abordagem acessível e gratuita, a
+                iniciativa prepara profissionais para enfrentar os desafios do mercado de trabalho em constante
+                evolução. Além disso, conta com o apoio de mentores e instituições comprometidas com a transformação
+                digital e o desenvolvimento econômico por meio da educação tecnológica.
+            </p>
+            <h2 class="subtitle" data-aos="fade">Trilha Full Stack Developer Júnior</h2>
+            <p data-aos="fade">
+                Essa trilha oferece uma experiência aprofundada em dois elementos essenciais do desenvolvimento web:
+                front-end e back-end, proporcionando aos participantes as habilidades necessárias para criar aplicações
+                web completas e funcionais.
+
+                Guiados por profissionais experientes, ao longo do curso, os participantes não só absorverão
+                conhecimento teórico, mas também desenvolverão habilidades práticas por meio de projetos interativos e
+                desafios do mundo real.
+
+                O diferencial desta jornada educacional está na sua abordagem prática e envolvente, a qual permite que
+                participantes compreendam os conceitos, e os apliquem de maneira eficaz.
+
+                Ao final da jornada, os 100 melhores alunos serão recomendados para preencher as vagas de
+                Desenvolvimento Júnior disponíveis nas empresas mantenedoras da +praTi.
+            </p>
+        </section>
+
+        <aside id="services">
+            <img class="asideImg" data-aos="flip-up" src="./img/aside.jpg">
+        </aside>
+
+
+    </div>
+
+    <section id="services-section">
+        <h2 class="subtitle" data-aos="fade">Nossos Serviços</h2>
+
+        <div id="services-cards" class="services-container">
+
+            <div class="card" data-aos="slide-left">
+                <img src="./img/consultoria.png" data-aos="zoom-in">
+                <div class="cardText">
+                    <h3>Consultoria Especializada em TI</h3>
+                    <p>Oferecemos orientação prática e estratégica para ajudar sua empresa a implementar soluções
+                        tecnológicas eficientes, aumentando a segurança e o desempenho dos sistemas.</p>
+                </div>
+
+            </div>
+
+            <div class="card" data-aos="fade">
+                <img src="./img/competencia.png" data-aos="zoom-in">
+                <div class="cardText">
+                    <h3>Desenvolvimento de<br>Competências Técnicas</h3>
+                    <p>Capacitamos profissionais para o mercado de TI com cursos práticos, elaborados para atender às
+                        demandas do setor, utilizando metodologias atualizadas e tecnologias de ponta.</p>
+                </div>
+
+
+            </div>
+
+            <div class="card" data-aos="slide-right">
+                <img src="./img/apoio.png" data-aos="zoom-in">
+                <div class="cardText">
+                    <h3>Apoio Personalizado aos Alunos</h3>
+                    <p>Nossos instrutores oferecem suporte contínuo durante toda a jornada de aprendizado, garantindo
+                        que cada aluno tenha o acompanhamento necessário para superar desafios e evoluir.</p>
+                </div>
+
+
+            </div>
+
+            <div class="card" data-aos="slide-up">
+                <img src="./img/treinamento.png" data-aos="zoom-in">
+                <div class="cardText">
+                    <h3>Treinamentos e Certificações</h3>
+                    <p>Oferecemos treinamentos intensivos e ao vivo, com foco em áreas emergentes da tecnologia,
+                        proporcionando certificações que são um diferencial no mercado de trabalho.</p>
+                </div>
+
+
+            </div>
+
+            <div class="card" data-aos="slide-up">
+                <img src="./img/plataforma.png" data-aos="zoom-in">
+                <div class="cardText">
+                    <h3>Plataforma Interativa e Intuitiva</h3>
+                    <p>Estude em uma plataforma desenvolvida para otimizar sua experiência de aprendizado, com acesso a
+                        conteúdos exclusivos, exercícios práticos e acompanhamento de progresso.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="container" class="container">
+        <h2 class="subtitle" data-aos="fade">Testemunhos</h2>
+        <div class="testimonials" id="testimonialsContainer" data-aos="fade-up"></div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <button class="cta" data-aos="fade" onclick="openModal()">
+            <i class="fas fa-calendar-alt"></i> ENTRAR EM CONTATO
+        </button>
+    </section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Formulário de Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="phone">Celular:</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message"></textarea>
+                <div class="modal-button-container">
+                    <button class="modal-button" type="submit" onclick="sendEmail();">Enviar</button>
+                </div>
+            </form>
+            <div id="messageBox" class="message-box"></div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>+PraTi</h2>
+        <div class="icons">
+            <a href="https://www.linkedin.com/company/maisprati/posts/?feedView=all" target="_blank" title="Linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/maisprati/" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/maispratioficial?_rdc=1&_rdr" target="_blank" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+        <p><strong>©Miller Santiago
+                <br>
+                Todos os direitos reservados
+            </strong>
+        </p>
+      
+    </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.10.0/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="src/js/slider.js"></script>
+    <script src="src/js/person.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="./src/js/aos.js"></script>
+    <script src="./src/js/modal.js"></script>
+    <script src="./src/js/email.js"></script>
+</body>
+
+</html>
