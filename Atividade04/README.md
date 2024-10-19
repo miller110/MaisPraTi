@@ -86,9 +86,6 @@ Trate possíveis erros na chamada de API com mensagens apropriadas, como "Erro a
 
 #### Deploy: https://maisprati.vercel.app/#title
 <img src="./img/result.png">
-<video width="640" height="360" controls autoplay loop muted>
-    <source src ="./video/+PraTi.mp4" type="video/mp4">
-</video>
 <hr>
 
 #### O projeto apresentado foi inspirado no site oficial do +PraTi, uma plataforma voltada para a capacitação de novos talentos na área de tecnologia da informação (TI). Seu objetivo central é oferecer trilhas de aprendizado acessíveis e gratuitas, focando no desenvolvimento de habilidades práticas. No meu projeto, dediquei especial atenção ao curso intensivo para desenvolvedores Full Stack, que integra conhecimentos de front-end e back-end, capacitando os alunos a criar aplicações web completas.
