@@ -1,7 +1,3 @@
-## Vídeo ↓
-
-![+praTi](https://github.com/user-attachments/assets/4a4309ab-e898-4b7b-9336-e68689a1bdb3)
-
 # +PraTi - Atividade 4 
 <hr>
 
@@ -87,6 +83,9 @@ Trate possíveis erros na chamada de API com mensagens apropriadas, como "Erro a
 <hr>
 
 ## Resolução
+## Vídeo ↓
+
+![+praTi](https://github.com/user-attachments/assets/4a4309ab-e898-4b7b-9336-e68689a1bdb3)
 
 #### Deploy: https://maisprati.vercel.app/#title
 <img src="./img/result.png">
