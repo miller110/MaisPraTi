@@ -118,6 +118,19 @@
 
 @media (max-width: 576px) {
     
+   #logo img {
+    width: 80%;
+   }
+   
+   #menu li a {
+    font-size: 14px;
+   }
+   
+    #menu li{
+        padding: 5px 0;
+    }
+   
+   
     #img-title {
         width: 30%;
     }

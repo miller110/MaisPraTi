@@ -91,7 +91,10 @@ Trate possíveis erros na chamada de API com mensagens apropriadas, como "Erro a
 <img src="./img/result.png">
 <hr>
 
-#### O projeto apresentado foi inspirado no site oficial do +PraTi, uma plataforma voltada para a capacitação de novos talentos na área de tecnologia da informação (TI). Seu objetivo central é oferecer trilhas de aprendizado acessíveis e gratuitas, focando no desenvolvimento de habilidades práticas. No meu projeto, dediquei especial atenção ao curso intensivo para desenvolvedores Full Stack, que integra conhecimentos de front-end e back-end, capacitando os alunos a criar aplicações web completas.
+#### O projeto apresentado foi inspirado no site oficial do +PraTi, onde tem uma dedicação especial ao curso que estou fazendo, que é um intensivo para desenvolvedores FullStack.
+
+#### Na página, você encontra uma seção de alunos que já passaram pelo curso, mostrando o impacto que ele teve nas suas carreiras. Além disso, há uma área dedicada aos serviços oferecidos pelo +PraTi, como consultoria especializada em TI, desenvolvimento de competências técnicas e apoio personalizado aos alunos. Tudo isso está organizado em um layout moderno, com cards que descrevem cada serviço de forma detalhada.
+
 #### Durante o desenvolvimento desse projeto, diversas tecnologias e práticas foram aplicadas, incluindo HTML, CSS e JavaScript. Utilizei bibliotecas como Swiper para implementar carrosséis interativos e AOS (Animate On Scroll) para criar animações durante o rolar da página. O design conta com ícones do Font Awesome e uma variedade de fontes do Google Fonts, resultando em uma estética moderna e atraente. A responsividade foi uma prioridade, garantindo que a página funcione perfeitamente em dispositivos móveis e desktops. Além disso, a integração com a API do EmailJS possibilita o envio de mensagens, promovendo assim uma comunicação eficiente. Por fim, implementei a API randomuser para gerar fotos e nomes de usuários aleatórios em um arquivo chamado person.js. E para enriquecer a experiência, adicionei comentários diretamente no código JavaScript, que são exibidos junto com a foto e o nome de cada usuário. 
 
 ## Feito por Miller Santiago.
