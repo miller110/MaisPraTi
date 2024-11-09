@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de lista de tarefas para organizar suas atividades">
+  <title>Atividade 5</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap">
+  <link rel="stylesheet" href="./responsively/style.css">
+</head>
+<body class="bg-gradient-to-r from-orange-500 to-red-900 flex justify-center items-center min-h-screen">
+
+  <div class="text-center">
+    <h1 class="mb-4 text-[#554d20] text-6xl" style="font-family: 'Cinzel', serif;">Miller Santiago</h1>
+
+    <h2 class="text-4xl mb-4 text-[#fde458]" style="font-family: 'Cinzel', serif;">Lista de tarefas</h2>
+
+    <div class="mb-3 flex justify-center items-center space-x-2">
+      <input type="text" id="new-task" class="border border-gray-300 rounded-lg px-3 py-2 w-1/2" placeholder="Adicionar nova tarefa...">
+      <button class="bg-green-700 text-white px-4 py-2 rounded-lg transition-colors duration-300 hover:bg-green-600 font-bold" onclick="addTask()">Adicionar Tarefa</button>
+    </div>
+
+    <ul id="task-list" class="list-none p-0 space-y-2"></ul>
+  </div>
+
+  <script src="./script/script.js"></script>
+</body>
+</html>
