@@ -36,7 +36,7 @@ Envie o código-fonte completo da aplicação (HTML, CSS e JavaScript) em um rep
 
 ---
 ## Resolução
-**Deploy:**
+**Deploy:https://atividade5-two.vercel.app/**
 
 - **Lista de Tarefas**
 ![Atividade 5](./img/1.png)
