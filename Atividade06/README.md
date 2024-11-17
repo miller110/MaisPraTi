@@ -38,19 +38,20 @@ Testar a página em diferentes navegadores e dispositivos para garantir que toda
 - Links
 - Responsividade
 ---
-##### Desktop
+**Deploy: https://gaming-brown-eight.vercel.app/**
+##### Desktop ↓
 ![Mario](./img/1.png)
 ![Pokemon](./img/2.png)
 ![Zelda](./img/3.png)
 
-##### Responsividade
+##### Responsividade ↓
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="./img/1b.png" alt="Mario" width="150">
-  <img src="./img/2b.png" alt="Pokemon" width="150">
-  <img src="./img/3b.png" alt="Zelda" width="150">
+  <img src="./img/1b.png" alt="Mario" width="300">
+  <img src="./img/2b.png" alt="Pokemon" width="300">
+  <img src="./img/3b.png" alt="Zelda" width="300">
 </div>
 
-##### Modal
+##### Modal ↓
 
 ![Modal](./img/modal.png)
