@@ -1,0 +1,41 @@
+#ex01 {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ex01 p {
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#increaseButton, #decreaseButton {
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#increaseButton {
+    background-color: #fff;
+    color: #111111;
+    margin-right: 10px;
+    background-color: #40f066;
+}
+
+#increaseButton:hover {
+    background-color: #04a519;
+}
+
+#decreaseButton {
+    background-color: #fd4147;
+    color: #fff;
+}
+
+#decreaseButton:hover {
+    background-color: #c50c15;
+}

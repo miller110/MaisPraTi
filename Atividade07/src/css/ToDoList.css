@@ -1,0 +1,78 @@
+#ex03 {
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inputContainer {
+    display: block;
+    justify-content: space-between;
+}
+
+#ex03 p {
+    font-size: 1.3em;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#ex03 input {
+    padding: 5px;
+    margin: 0 10px;
+    /* width: 55%; */
+}
+
+#ex03 input:focus {
+    outline: none;
+}
+
+#ex03 button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#ex03 ul {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ex03 ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#addTaskButton {
+    background-color: #9EDF9C;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#addTaskButton:hover {
+    background-color: #C2FFC7;
+}
+
+#removeTaskButton {
+    background-color: #C71F37;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#removeTaskButton:hover {
+    background-color: #E01E37;
+}

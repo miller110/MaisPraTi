@@ -1,0 +1,36 @@
+#ex04 {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ex04 p {
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#ex04 button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3f37c9;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#ex04 button:hover {
+    background-color: #4895ef;
+}
+
+#stopwatchBtns {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}

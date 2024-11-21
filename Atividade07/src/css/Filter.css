@@ -1,0 +1,35 @@
+#ex05 {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ex05 p {
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#ex05 input {
+    padding: 5px;
+    margin: 0 10px;
+}
+
+#ex05 input:focus {
+    outline: none;
+}
+
+#ex05 ul {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ex05 ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    user-select: none;
+    padding: 5px;
+}

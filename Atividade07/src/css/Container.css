@@ -1,0 +1,63 @@
+/* Estilos Gerais */
+#container {
+    height: 80vh; /* Reduz a altura para 80% da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5; /* Cor de fundo suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna */
+}
+
+/* Container da Navegação */
+#containerNav {
+    margin-top: 20px; /* Diminui a margem superior para dar mais espaço */
+    display: flex;
+    gap: 15px; /* Espaçamento entre os botões */
+}
+
+/* Estilos dos Botões */
+#containerNav button {
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para os botões */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse */
+#containerNav button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Aumento sutil do botão */
+}
+
+/* Container de Conteúdo Escolhido */
+#chosenComponent {
+    margin-top: 20px; /* Aumenta o espaço entre o botão e o conteúdo */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra para o conteúdo */
+    max-width: 80%; /* Limita a largura do conteúdo */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Animação suave ao carregar o conteúdo */
+#chosenComponent {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Keyframe de Fade In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

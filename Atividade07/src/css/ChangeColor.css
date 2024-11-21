@@ -1,0 +1,30 @@
+#ex02 {
+    /* border: 1px solid yellow; */
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#ex02 p {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+#changeBgColorButton {
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #020202;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#changeBgColorButton:hover {
+    background-color: #474747;
+}
